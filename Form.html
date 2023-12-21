@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback</title>
+
+	<!-- CSS STYLESHEET -->
+	<link rel="stylesheet" type="text/css" href="./Styles/Bio.css">
+	<link rel="stylesheet" type="text/css" href="./Styles/About.css">
+    <link rel="stylesheet" type="text/css" href=".?Styles/Form.css">
+
+    <!-- JAVASCRIPT-->
+    <script src="./Scripts/form.js"></script>
+	<!-- UNICORN STYLESHEET -->
+	<link rel="stylesheet" type="text/css" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="menu_links"><!-- This div element contains other divs containing the links of the navigation bar -->
+				<div class="nav_link">
+					<a href="MandelaBio.html">Home</a>
+				</div>
+				<div class="nav_link">
+					<a href="About.html">About</a>
+				</div>
+				</div>
+			<div class="logo"><!-- Div element for inserting a logo -->
+				<b>NI.BRYAN<b>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section class="section-about"><!-- HOME SECTION-->
+			<div class="container"><!-- HOME CONTENT -->
+				<!-- <div class="about-content"> -->
+					<div><!-- Left Part -->
+						<div class="circle-left"></div>
+						<h3 class="about-text">MY BACKGROUND</h3>
+						<p class="about-dsc">Feedback form: <br></p>
+                        <form action="">
+                            <label for="fullname">Full Name: <br></label>
+                            <input type="text" id="fullname" name="fullname" required>
+                            <span id="nameError" class="error"></span>
+                            
+                            <br>
+
+                            <label for="email">Email: <br></label>
+                            <input type="email" id="email" name="email" required>
+                            <span id="emailError" class="error"></span>
+
+                            <br>
+
+
+                            <label for="feedback">Share your thoughts on the page: <br></label>
+                            <textarea name="feedback" rows="10" cols="30" required></textarea> 
+                            <span id="feedbackError" class="error"></span>
+
+							<button type="submit">Submit</button>
+							<button type="reset">Reset</button>
+                        </form>
+					</div>
+					<div class="about-img"><!-- Middle Part -->
+						<img class="home-image" src="./Assets/Images/coffee_cup.jpg" alt="Cup of cofee beside a laptop">
+						<p class="about-img-text">ABOUT ME</p>
+					</div>
+					<div class="view"><!-- Right Part -->
+						<div class="circle-right"></div>
+						<a href="#" >View my Portfolio</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p class="email">kipngenobrian070@gmail.com</p>
+		<div class="social-links">
+			<i class="uil uil-facebook"></i> <!-- Facebook -->
+			<i class="uil uil-twitter"></i> <!-- Twitter -->
+			<i class="uil uil-github"></i> <!-- GitHub -->
+			<i class="uil uil-linkedin"></i> <!-- LinkedIn -->
+		</div>
+	</footer>
+</body>
+</html>
